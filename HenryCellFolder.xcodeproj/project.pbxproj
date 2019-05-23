@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1261D6F4229547F200CF9E53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1261D6F3229547F200CF9E53 /* AppDelegate.m */; };
+		1261D6F7229547F200CF9E53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1261D6F6229547F200CF9E53 /* ViewController.m */; };
+		1261D6FA229547F200CF9E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1261D6F8229547F200CF9E53 /* Main.storyboard */; };
+		1261D6FC229547F800CF9E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1261D6FB229547F800CF9E53 /* Assets.xcassets */; };
+		1261D6FF229547F800CF9E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1261D6FD229547F800CF9E53 /* LaunchScreen.storyboard */; };
+		1261D702229547F800CF9E53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1261D701229547F800CF9E53 /* main.m */; };
+		1261D70C229547F800CF9E53 /* HenryCellFolderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1261D70B229547F800CF9E53 /* HenryCellFolderTests.m */; };
+		1261D717229547F800CF9E53 /* HenryCellFolderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1261D716229547F800CF9E53 /* HenryCellFolderUITests.m */; };
+		1261D7262295539E00CF9E53 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1261D7252295539E00CF9E53 /* TableViewCell.m */; };
+		677BDBA798EB554EB15D2A08 /* libPods-HenryCellFolder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCDDE0E3913F1293AF2397C /* libPods-HenryCellFolder.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1261D708229547F800CF9E53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1261D6E7229547F200CF9E53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1261D6EE229547F200CF9E53;
+			remoteInfo = HenryCellFolder;
+		};
+		1261D713229547F800CF9E53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1261D6E7229547F200CF9E53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1261D6EE229547F200CF9E53;
+			remoteInfo = HenryCellFolder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1261D6EF229547F200CF9E53 /* HenryCellFolder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HenryCellFolder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1261D6F2229547F200CF9E53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1261D6F3229547F200CF9E53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1261D6F5229547F200CF9E53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1261D6F6229547F200CF9E53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1261D6F9229547F200CF9E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1261D6FB229547F800CF9E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1261D6FE229547F800CF9E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1261D700229547F800CF9E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1261D701229547F800CF9E53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1261D707229547F800CF9E53 /* HenryCellFolderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HenryCellFolderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1261D70B229547F800CF9E53 /* HenryCellFolderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HenryCellFolderTests.m; sourceTree = "<group>"; };
+		1261D70D229547F800CF9E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1261D712229547F800CF9E53 /* HenryCellFolderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HenryCellFolderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1261D716229547F800CF9E53 /* HenryCellFolderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HenryCellFolderUITests.m; sourceTree = "<group>"; };
+		1261D718229547F800CF9E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1261D7242295539E00CF9E53 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		1261D7252295539E00CF9E53 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		4B3D187255790CDE14305A94 /* Pods-HenryCellFolder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HenryCellFolder.release.xcconfig"; path = "Pods/Target Support Files/Pods-HenryCellFolder/Pods-HenryCellFolder.release.xcconfig"; sourceTree = "<group>"; };
+		ABCDDE0E3913F1293AF2397C /* libPods-HenryCellFolder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HenryCellFolder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D615AAB7311460CAEF133EFB /* Pods-HenryCellFolder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HenryCellFolder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HenryCellFolder/Pods-HenryCellFolder.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1261D6EC229547F200CF9E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677BDBA798EB554EB15D2A08 /* libPods-HenryCellFolder.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1261D704229547F800CF9E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1261D70F229547F800CF9E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1261D6E6229547F200CF9E53 = {
+			isa = PBXGroup;
+			children = (
+				1261D6F1229547F200CF9E53 /* HenryCellFolder */,
+				1261D70A229547F800CF9E53 /* HenryCellFolderTests */,
+				1261D715229547F800CF9E53 /* HenryCellFolderUITests */,
+				1261D6F0229547F200CF9E53 /* Products */,
+				9FB4AE8218032485D7873721 /* Pods */,
+				35419FAED6D8C5B7505C971B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1261D6F0229547F200CF9E53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1261D6EF229547F200CF9E53 /* HenryCellFolder.app */,
+				1261D707229547F800CF9E53 /* HenryCellFolderTests.xctest */,
+				1261D712229547F800CF9E53 /* HenryCellFolderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1261D6F1229547F200CF9E53 /* HenryCellFolder */ = {
+			isa = PBXGroup;
+			children = (
+				1261D6F2229547F200CF9E53 /* AppDelegate.h */,
+				1261D6F3229547F200CF9E53 /* AppDelegate.m */,
+				1261D6F5229547F200CF9E53 /* ViewController.h */,
+				1261D6F6229547F200CF9E53 /* ViewController.m */,
+				1261D6F8229547F200CF9E53 /* Main.storyboard */,
+				1261D6FB229547F800CF9E53 /* Assets.xcassets */,
+				1261D6FD229547F800CF9E53 /* LaunchScreen.storyboard */,
+				1261D700229547F800CF9E53 /* Info.plist */,
+				1261D701229547F800CF9E53 /* main.m */,
+				1261D7242295539E00CF9E53 /* TableViewCell.h */,
+				1261D7252295539E00CF9E53 /* TableViewCell.m */,
+			);
+			path = HenryCellFolder;
+			sourceTree = "<group>";
+		};
+		1261D70A229547F800CF9E53 /* HenryCellFolderTests */ = {
+			isa = PBXGroup;
+			children = (
+				1261D70B229547F800CF9E53 /* HenryCellFolderTests.m */,
+				1261D70D229547F800CF9E53 /* Info.plist */,
+			);
+			path = HenryCellFolderTests;
+			sourceTree = "<group>";
+		};
+		1261D715229547F800CF9E53 /* HenryCellFolderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1261D716229547F800CF9E53 /* HenryCellFolderUITests.m */,
+				1261D718229547F800CF9E53 /* Info.plist */,
+			);
+			path = HenryCellFolderUITests;
+			sourceTree = "<group>";
+		};
+		35419FAED6D8C5B7505C971B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABCDDE0E3913F1293AF2397C /* libPods-HenryCellFolder.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FB4AE8218032485D7873721 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D615AAB7311460CAEF133EFB /* Pods-HenryCellFolder.debug.xcconfig */,
+				4B3D187255790CDE14305A94 /* Pods-HenryCellFolder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1261D6EE229547F200CF9E53 /* HenryCellFolder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1261D71B229547F800CF9E53 /* Build configuration list for PBXNativeTarget "HenryCellFolder" */;
+			buildPhases = (
+				830F119DC72C5EB706D4D2C0 /* [CP] Check Pods Manifest.lock */,
+				1261D6EB229547F200CF9E53 /* Sources */,
+				1261D6EC229547F200CF9E53 /* Frameworks */,
+				1261D6ED229547F200CF9E53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HenryCellFolder;
+			productName = HenryCellFolder;
+			productReference = 1261D6EF229547F200CF9E53 /* HenryCellFolder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1261D706229547F800CF9E53 /* HenryCellFolderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1261D71E229547F800CF9E53 /* Build configuration list for PBXNativeTarget "HenryCellFolderTests" */;
+			buildPhases = (
+				1261D703229547F800CF9E53 /* Sources */,
+				1261D704229547F800CF9E53 /* Frameworks */,
+				1261D705229547F800CF9E53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1261D709229547F800CF9E53 /* PBXTargetDependency */,
+			);
+			name = HenryCellFolderTests;
+			productName = HenryCellFolderTests;
+			productReference = 1261D707229547F800CF9E53 /* HenryCellFolderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1261D711229547F800CF9E53 /* HenryCellFolderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1261D721229547F800CF9E53 /* Build configuration list for PBXNativeTarget "HenryCellFolderUITests" */;
+			buildPhases = (
+				1261D70E229547F800CF9E53 /* Sources */,
+				1261D70F229547F800CF9E53 /* Frameworks */,
+				1261D710229547F800CF9E53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1261D714229547F800CF9E53 /* PBXTargetDependency */,
+			);
+			name = HenryCellFolderUITests;
+			productName = HenryCellFolderUITests;
+			productReference = 1261D712229547F800CF9E53 /* HenryCellFolderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1261D6E7229547F200CF9E53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = hujianghua;
+				TargetAttributes = {
+					1261D6EE229547F200CF9E53 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1261D706229547F800CF9E53 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1261D6EE229547F200CF9E53;
+					};
+					1261D711229547F800CF9E53 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1261D6EE229547F200CF9E53;
+					};
+				};
+			};
+			buildConfigurationList = 1261D6EA229547F200CF9E53 /* Build configuration list for PBXProject "HenryCellFolder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1261D6E6229547F200CF9E53;
+			productRefGroup = 1261D6F0229547F200CF9E53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1261D6EE229547F200CF9E53 /* HenryCellFolder */,
+				1261D706229547F800CF9E53 /* HenryCellFolderTests */,
+				1261D711229547F800CF9E53 /* HenryCellFolderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1261D6ED229547F200CF9E53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1261D6FF229547F800CF9E53 /* LaunchScreen.storyboard in Resources */,
+				1261D6FC229547F800CF9E53 /* Assets.xcassets in Resources */,
+				1261D6FA229547F200CF9E53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1261D705229547F800CF9E53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1261D710229547F800CF9E53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		830F119DC72C5EB706D4D2C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HenryCellFolder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1261D6EB229547F200CF9E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1261D6F7229547F200CF9E53 /* ViewController.m in Sources */,
+				1261D7262295539E00CF9E53 /* TableViewCell.m in Sources */,
+				1261D702229547F800CF9E53 /* main.m in Sources */,
+				1261D6F4229547F200CF9E53 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1261D703229547F800CF9E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1261D70C229547F800CF9E53 /* HenryCellFolderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1261D70E229547F800CF9E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1261D717229547F800CF9E53 /* HenryCellFolderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1261D709229547F800CF9E53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1261D6EE229547F200CF9E53 /* HenryCellFolder */;
+			targetProxy = 1261D708229547F800CF9E53 /* PBXContainerItemProxy */;
+		};
+		1261D714229547F800CF9E53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1261D6EE229547F200CF9E53 /* HenryCellFolder */;
+			targetProxy = 1261D713229547F800CF9E53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1261D6F8229547F200CF9E53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1261D6F9229547F200CF9E53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1261D6FD229547F800CF9E53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1261D6FE229547F800CF9E53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1261D719229547F800CF9E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1261D71A229547F800CF9E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1261D71C229547F800CF9E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D615AAB7311460CAEF133EFB /* Pods-HenryCellFolder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HenryCellFolder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hujianghua.HenryCellFolder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1261D71D229547F800CF9E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B3D187255790CDE14305A94 /* Pods-HenryCellFolder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HenryCellFolder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hujianghua.HenryCellFolder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1261D71F229547F800CF9E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HenryCellFolderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hujianghua.HenryCellFolderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HenryCellFolder.app/HenryCellFolder";
+			};
+			name = Debug;
+		};
+		1261D720229547F800CF9E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HenryCellFolderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hujianghua.HenryCellFolderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HenryCellFolder.app/HenryCellFolder";
+			};
+			name = Release;
+		};
+		1261D722229547F800CF9E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HenryCellFolderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hujianghua.HenryCellFolderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HenryCellFolder;
+			};
+			name = Debug;
+		};
+		1261D723229547F800CF9E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HenryCellFolderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hujianghua.HenryCellFolderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HenryCellFolder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1261D6EA229547F200CF9E53 /* Build configuration list for PBXProject "HenryCellFolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1261D719229547F800CF9E53 /* Debug */,
+				1261D71A229547F800CF9E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1261D71B229547F800CF9E53 /* Build configuration list for PBXNativeTarget "HenryCellFolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1261D71C229547F800CF9E53 /* Debug */,
+				1261D71D229547F800CF9E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1261D71E229547F800CF9E53 /* Build configuration list for PBXNativeTarget "HenryCellFolderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1261D71F229547F800CF9E53 /* Debug */,
+				1261D720229547F800CF9E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1261D721229547F800CF9E53 /* Build configuration list for PBXNativeTarget "HenryCellFolderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1261D722229547F800CF9E53 /* Debug */,
+				1261D723229547F800CF9E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1261D6E7229547F200CF9E53 /* Project object */;
+}
